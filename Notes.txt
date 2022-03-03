@@ -1,0 +1,42 @@
+Q. Diffrence Between Oveloading and Overriding
+A. When two or more methods in the same class have the same name but different parameters, it's called Overloading.
+   When the method signature (name and parameters) are the same in the superclass and the child class, it's called Overriding.
+	
+Method overloading is a compile-time polymorphism --  Method overriding is a run-time polymorphism.
+It occurs within the class. -- It is performed in two classes with inheritance relationships.
+Method overloading may or may not require inheritance. -- Method overriding always needs inheritance.
+In method overloading, methods must have the same name and different signatures.	-- In method overriding, methods must have the same name and same signature.
+In method overloading, the return type can or can not be the same, but we just have to change the parameter. -- In method overriding, the return type must be the same or co-variant.
+
+
+==================================================================================================
+
+Q. Access Modifier
+A. There are three access modifiers:
+	 public - the property or method can be accessed from everywhere. This is default.
+    protected - the property or method can be accessed within the class and by classes derived from that class.
+    private - the property or method can ONLY be accessed within the class.
+==================================================================================================	 
+
+A. Polymorphism is one of the most important OOPs concepts. Its is a concept by which we can perform single task in multiple ways. There are two types of polymorphism one is Compile-time polymorphism and another is run-time polymorphism.
+Method overloading is the example of compile time polymorphism and  method overriding is the example of run-time polymorphism.
+==================================================================================================
+Q. Abstrac Class ;
+A. An abstract class is a class that cannot be instantiated. Means we can not create object of abstract class. Typically, an abstract defines an interface for other classes to extend. To define an abstract class, you add the abstract keyword.
+
+An abstract class is a class that contains at least one abstract method. An abstract method is a method that is declared, but not implemented in the code. Abstract classes and methods are when the parent class has a named method, but need its child class(es) to fill out the tasks. An abstract class is a class that contains at least one abstract method.
+==================================================================================================
+Q. REST API : -(Representational state transfer) It is a architectural style for an applications that allow two applications to communicate with each other over the internate and through various device. Every time you access an app like Facebook or check the weather on your smartphone, an API is used.
+
+a REST API would use a GET request to retrieve a record, a POST request to create one, a PUT request to update a record, and a DELETE request to delete one. All HTTP methods can be used in API calls. A well-designed REST API is similar to a website running in a web browser with built-in HTTP functionality
+==================================================================================================
+Q > RSET API Vs SOAP API
+ ->SOAP is a protocol whereas REST is an architectural pattern. 
+ ->SOAP uses service interfaces to expose its functionality to client applications while REST uses Uniform Service locators to access to the components on the hardware device. 
+ ->SOAP needs more bandwidth for its usage whereas REST doesn't need much bandwidth.
+ ->SOAP allow only POST request to send the data but REST API, we can user POSR,GET,PUT and DELETE
+ ->SOAP uses only XML for communication whereas REST can user json,xml,text etc 
+Full form of SOAP : Simple Object Access Protocol
+==================================================================================================
+Q >  PDO
+	>PDO refers to PHP Data Object, which is a PHP extension that defines a lightweight and consistent interface for accessing a database in PHP. also we can say PDO is a database access layer providing a uniform method of access to multiple databases.
